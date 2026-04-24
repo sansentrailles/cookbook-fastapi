@@ -1,7 +1,7 @@
 from sqlalchemy import ForeignKey
 from sqlalchemy.orm import Mapped, mapped_column
 
-from models.base import Base
+from cookbook.models.base import Base
 
 
 class RecipeIngredients(Base):

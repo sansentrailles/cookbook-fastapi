@@ -1,8 +1,7 @@
 from sqlalchemy import String, Text
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
-from models.base import Base
-from models.ingredient import Ingredient
+from cookbook.models.base import Base
 
 
 class Recipe(Base):
